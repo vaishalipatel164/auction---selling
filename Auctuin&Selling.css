@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-main{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.navbar-wapper{
+    background-color: burlywood;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+     list-style: none;
+     box-sizing: border-box;
+     padding: 5px 20px;  
+}
+.navbar-list{
+    display: flex;
+    list-style: none;
+   justify-content:end;
+   list-style: none;
+}
+.navbar-list li{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.navbar-list li a{
+    list-style: none;
+    font-size: 18px;
+    position: relative;
+}
+.navbar-list li a::after {
+        background-color: black;
+        content: " ";
+        width: 0px;
+        height: 3px;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        transition: 0.3s;
+        }
+      .navbar-list li a:hover::after{
+        width: 100%;
+      }
+.auction-home{
+    background-color: rgb(214, 121, 6);
+    width: 100%;
+    height: 100vh;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-main{
+    margin: 10rem;
+}
