@@ -89,7 +89,7 @@
     max-width:100%;
 }
 
-/* Text */
+/* Home Text */
 
 .home-left h1{
     font-size:3rem;
@@ -111,7 +111,7 @@
     color:white;
 }
 
-/* Buttons */
+/* Home Buttons */
 
 .home-left button{
     width:160px;
@@ -130,7 +130,7 @@
     color:white;
     box-shadow:0 0 15px black;
 }
-/* card */
+/* Home card */
 
 .home-card{
     display: flex;
@@ -161,4 +161,14 @@
     font-size: 22px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 10px;
+}
+/* About Us Section */
+
+.about-main{
+    background-color:khaki;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
