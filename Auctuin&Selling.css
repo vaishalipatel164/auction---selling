@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 
-/* Navbar */
+         /* Navbar */
 
 .navbar-main{
     width:100%;
@@ -51,7 +51,7 @@
 .navbar-list li a:hover::after{
     width:100%;
 }
-/* Home Section */
+         /* Home Section */
 
 .auction-home{
     width:100%;
@@ -146,7 +146,7 @@
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 10px;
 }
-/* About Us Section */
+         /* About Us Section */
 
 .about-main{
     background-color:khaki;
@@ -248,7 +248,7 @@ font-size: 22px;
     gap: 30px;
 }
 
-/* Categories Section */
+         /* Categories Section */
 
 .Categories-wapper{
     background-color:whitesmoke;
@@ -256,7 +256,7 @@ font-size: 22px;
     height: auto;
     text-align: center;
     padding: 30px 0px;
-    scroll-margin-top: 50px;
+    scroll-margin-top: 70px;
 }
 .Categories-wapper h1{
     font-size: 4.5rem;
@@ -277,6 +277,10 @@ font-size: 22px;
     /* border: 2px solid black; */
    justify-content: space-between;
 }
+.Categories-box button:hover{
+color: black;
+box-shadow: 2px 2px 8px black;
+}
 .Categories-left, .Categories-right{
     padding: 20px;
     /* border: 2px solid orangered; */
@@ -290,16 +294,21 @@ font-size: 22px;
     width:500px;
     height:400px;
     display: flex;
-    margin-top: 20px;
-    /* background: rgb(197, 226, 238); */
+    margin-top: 50px;
 }
-
+.categories-card:hover{
+    box-shadow: 5px 5px 20px black;
+    transform: scale(1.03);
+}
 .categories-card-left{
  width: 50%;
 }
 .categories-card-left img{
     width: 100%;
     height: 100px;
+}
+.categories-card-left h2{
+    font-size: 2rem;
 }
 .categories-card-left button{
     padding: 10px 10px;
@@ -317,6 +326,9 @@ font-size: 22px;
    background-color: rgb(13, 13, 100);
     color: white;
 }
+.bg1{
+    background: rgb(197, 226, 238);
+}
 .card-h2{
  color:green ; 
  font-size: 2rem;  
@@ -325,12 +337,18 @@ font-size: 22px;
     border: 2px solid green;
     background-color: green;
 }
+.bg2{
+    background: rgb(187, 230, 187);
+}
 .card-h3{
 color: purple;
 }
 .card-button3{
     border: 2px solid purple ;
     background-color:purple;
+}
+.bg3{
+    background: rgb(216, 182, 216);
 }
 .card-h4{
 color: crimson;
@@ -339,12 +357,18 @@ color: crimson;
     border: 2px solid crimson;
     background-color: crimson;
 }
+.bg4{
+    background: rgb(231, 201, 208);
+}
 .card-h5{
 color: orangered;
 }
 .card-button5{
     border: 2px solid orangered;
     background-color:orangered;
+}
+.bg5{
+    background: rgb(243, 189, 170);
 }
 .card-h6{
 color: rgb(128, 40, 40);
@@ -353,10 +377,170 @@ color: rgb(128, 40, 40);
     border: 2px solid rgb(128, 40, 40);
     background-color: rgb(128, 40, 40);
 }
+.bg6{
+    background: rgb(241, 189, 189);
+}
 .categories-card-right img {
     width: 100%;
     height: 100%;
 }
-.bg1{
-    background: rgb(197, 226, 238);
+.categorie-footer{
+  background-color:#0b1e3b ;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.footer-flex{
+  display: flex;
+  justify-content: center;
+}
+.categorie-footer-img{
+    /* border: 2px solid wheat; */
+    width: 100%;
+}
+.categorie-footer-img img{
+ width: 260px;
+}
+.categorie-footer-para{
+    /* border: 2px solid khaki; */
+    width: 100%;
+}
+.categorie-footer-para h2{
+color: whitesmoke;
+font-size: 2.2rem;
+padding: 10px;
+}
+.categorie-footer-para p{
+padding: 40px 10px;
+color:burlywood;
+}
+.categorie-footer-button{
+    /* border: 2px solid orange; */
+    width: 100%;
+   align-content: center;
+}
+.categorie-footer-button button{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: orangered;
+    border: 2px solid orangered;
+    color: wheat;
+    border-radius: 10px;
+}
+.categorie-footer-button button:hover{
+    box-shadow: 2px 2px 6px white;
+    transform: scale(1.03);
+    color: black;
+}
+         /* Auction Section */
+
+.auction-wapper{
+    background-color: rgb(169, 228, 169);
+    width: 100%;
+    height: auto;
+    padding: 60px 80px;
+    scroll-margin-top: 55px;
+     /* border: 2px solid black; */
+}
+.auction-heading{
+    width: 100%;
+    display:flex;
+    align-content: center;
+}
+.auction-heading-left{
+     /* border: 2px solid orangered; */
+     width: 50%;
+}
+.auction-heading-left h1{
+    font-size: 5rem;
+     text-shadow:4px 4px 8px rgba(0,0,0,0.4);
+}
+.auction-heading-left p{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 30px 0px;
+    color: brown;
+}
+.auction-heading-right{
+   /* border: 2px solid green;  */
+    width: 50%; 
+    text-align: center;
+    margin-top: 30px;
+}
+.auction-search{
+    background-color:rgb(197, 226, 238);
+    margin: 30px;
+    padding: 20px;
+}
+.Search-effect{
+    padding: 30px 10px;
+    text-align:center;
+}
+.Search-effect2{
+    padding: 30px 10px;
+    text-align:center;
+}
+/* Auction card */
+
+.auction-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.auction-card-main{
+    width: 375px;
+    height: 425px;
+    /* border: 2px solid black; */
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+.auction-card-main:hover{
+box-shadow: 5px 5px 20px black;
+transform: scale(1.05);
+}
+.auction-card-img{
+    text-align: justify;
+}
+.auction-card-img img{
+width: 100%;
+height: 150px;
+}
+.auction-card-head p{
+font-size: 18px;
+color: brown;
+}
+.auction-card-price{
+    display: flex;
+    margin-top: 15px;
+    /* border: 2px solid black; */
+    font-weight: bold;
+    font-size:18px;
+}
+.card-price-left{
+/* border: 2px solid orangered; */
+width: 50%;
+text-align: start;
+}
+.card-price-right{
+/* border: 2px solid orangered; */
+width: 50%;
+text-align: end;
+}
+.auction-card-button button{
+    width: 100%;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+.auction-card-button button:hover{
+    color: black;
+    box-shadow: 4px 4px 10px black;
 }
