@@ -291,7 +291,7 @@
 
       <div class="auction-search">
         <div class="auction-search-bar">
-          <div class="Search-effect">
+          <div class="Search-effect search-row">
             <input
               type="text"
               id="text"
@@ -503,7 +503,7 @@
 
     <!-- Sell Product Section -->
 
-    <section class="sell-wapper">
+    <section class="sell-wapper" id="sell">
       <div class="sell-heading">
         <div class="sell-heading-left">
           <h1>Sell Your <br /><span style="color: orangered">Product</span></h1>
@@ -524,7 +524,11 @@
             <h2>🏷️ List Your Product</h2>
             <ol>
               <li class="sell-list">Product Name</li>
-              <input class="sell-list-op" type="text" placeholder="Enter product name" />
+              <input
+                class="sell-list-op"
+                type="text"
+                placeholder="Enter product name"
+              />
               <li class="sell-list">Category</li>
               <select class="sell-list-op">
                 <option>All Categories</option>
@@ -536,22 +540,36 @@
                 <option>Collectibles</option>
               </select>
               <li class="sell-list">Product Description</li>
-              <textarea class="sell-list-op"
+              <textarea
+                class="sell-list-op"
                 placeholder="Describe your product in detail..."
               ></textarea>
               <li class="sell-list">Product Image</li>
-              <input class="sell-list-op"
+              <input
+                class="sell-list-op"
                 type="text"
                 placeholder="Drag & drop images here or click to browser"
               />
               <!-- <p>You can upload up to 5 images (JPG,PNG)</p> -->
               <li class="sell-list">Selling Price</li>
-              <input class="sell-list-op" type="text" placeholder="₹ | Enter selling price" />
+              <input
+                class="sell-list-op"
+                type="text"
+                placeholder="₹ | Enter selling price"
+              />
               <li class="sell-list">Contact Information</li>
               <input class="sell-list-op" type="text" placeholder="Your Name" />
               <div class="sell-list-op2">
-              <input class="sell-list-op" type="text" placeholder="Phone Number" />
-              <input class="sell-list-op" type="text" placeholder="Email Address" />
+                <input
+                  class="sell-list-op"
+                  type="text"
+                  placeholder="Phone Number"
+                />
+                <input
+                  class="sell-list-op"
+                  type="text"
+                  placeholder="Email Address"
+                />
               </div>
             </ol>
             <button class="sell-list-btn">Submit Listing</button>
@@ -573,21 +591,97 @@
           </div>
           <div class="sell-option2">
             <div class="sell-option-bottom">
-              <h2>Why Sell On <span style="color: orangered;">BidMart?</span></h2>
-              <h3>Easy Product Listing</h3><br>
-              <p>List your products quickly and easily with our simple form.</p><br>
-              <hr /><br>
-              <h3>Reach thousands of Buyers</h3><br>
+              <h2>
+                Why Sell On <span style="color: orangered">BidMart?</span>
+              </h2>
+              <h3>Easy Product Listing</h3>
+              <br />
+              <p>List your products quickly and easily with our simple form.</p>
+              <br />
+              <hr />
+              <br />
+              <h3>Reach thousands of Buyers</h3>
+              <br />
               <p>
                 Your product will be seen by thousands of active buyers daily.
-              </p><br>
-              <hr /><br>
-              <h3>Secure Selling Process</h3><br>
-              <p>We ensure safe transactions and protect your information.</p><br>
-              <hr /><br>
-              <h3>Quick Approval</h3><br>
+              </p>
+              <br />
+              <hr />
+              <br />
+              <h3>Secure Selling Process</h3>
+              <br />
+              <p>We ensure safe transactions and protect your information.</p>
+              <br />
+              <hr />
+              <br />
+              <h3>Quick Approval</h3>
+              <br />
               <p>Get your product listed and approved in no time.</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review Section -->
+
+    <section class="review-wapper">
+      <div class="review-image">
+        <img src="./image/review-img.png" alt="" />
+        <h1>What Our <span style="color: orangered">Customers Say</span></h1>
+        <p>Real reviews from real customers who love using our platform.</p>
+      </div>
+
+      <!-- Review card -->
+
+      <div class="review-card">
+
+        <div class="reviwe-card-wapper">
+          <div class="reviwe-card-main">
+            <img src="./image/review-card1.jpg" alt="" /><br>
+            <span>⭐⭐⭐⭐⭐</span><br><br>
+            <p>
+              The auction process was smooth and I got a great deal on a laptop.
+            </p>
+            <br />
+            <h2>Rahul Verma</h2>
+            <p>Buyer</p>
+          </div>
+        </div>
+         <div class="reviwe-card-wapper">
+          <div class="reviwe-card-main">
+            <img src="./image/review-card2.jpg" alt="" /><br>
+            <span>⭐⭐⭐⭐⭐</span><br><br>
+            <p>
+              Selling products was easy and I received genuine buyers.
+            </p>
+            <br />
+            <h2>Priya Sharma</h2>
+            <p>Seller</p>
+          </div>
+        </div>
+         <div class="reviwe-card-wapper">
+          <div class="reviwe-card-main">
+            <img src="./image/review-card3.png" alt="" /><br>
+            <span>⭐⭐⭐⭐⭐</span><br><br>
+            <p>
+              Excellent plateform with secure payments and fast support.
+            </p>
+            <br />
+            <h2>Amit Khanna</h2>
+            <p>Happy Customer</p>
+          </div>
+        </div>
+         <div class="reviwe-card-wapper">
+          <div class="reviwe-card-main">
+            <img src="./image/review-card4.jpg" alt="" /><br>
+            <span>⭐⭐⭐⭐⭐</span><br><br>
+            <p>
+              Listing my items was quick and I sold them at a great price.
+            </p>
+            <br />
+            <h2>Neha Gupta</h2>
+            <p>Seller</p>
           </div>
         </div>
       </div>
