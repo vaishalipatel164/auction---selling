@@ -686,6 +686,7 @@ font-style: italic;
     width: 100%;
     height: auto;
     padding: 80px 10px;
+    scroll-margin-top: 50px;
 }
 .review-image{
     text-align: center;
@@ -725,9 +726,104 @@ font-style: italic;
 .reviwe-card-main img{
     width: 100%;
     height: 210px;
-    border-radius: 50% 50%;
+    border: 2px solid black;
+    border-radius: 100%;
 }
 .reviwe-card-main p{
     color: crimson;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.review-footer{
+    background-color:whitesmoke;
+    margin: 1rem 15.5rem;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px gray;
+}
+.review-footer-card{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    padding: 5px 10px;
+    gap: 10px;
+}
+.footer-card-img{
+    width: 60px;
+    height: 60px;
+}
+.footer-card-para{
+    padding: 10px;
+}
+
+         /* Contact Section */
+
+.Contact-wapper{
+    background-color:rgb(235, 207, 212);
+    width: 100%;
+    height: auto;
+}
+.Contact-header{
+text-align: center;
+padding: 50px 0px;
+}
+.Contact-header h1{
+    font-size: 5rem;
+     text-shadow:4px 4px 8px rgba(0,0,0,0.4);
+}
+.Contact-header p{
+     font-size:22px;
+   padding: 20px 0px;
+   font-style: italic;
+   font-weight: bold;
+   color: blue;
+}
+
+         /* Contact Card */
+.contact-card{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 3px solid black; */
+    margin: 10px;
+    justify-content: center;
+    gap: 50px;
+}         
+.contact-card-left{
+    width: 40%;
+    border: 2px solid orangered;
+} 
+.contact-left-list{
+    padding: 20px 50px;
+}
+.contact-left-list h2{
+    font-size: 2.2rem;
+}
+.contact-card-right{
+    width: 40%;
+    padding: 20px 50px;
+    /* margin: 20px; */
+    border: 3px solid aqua;
+}
+.contact-right-list{
+     width: 100%;
+    height: 130px;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+} 
+.contact-right-img{
+    width: 20%;
+    /* border: 2px solid black; */
+    padding: 0px 30px;
+}  
+.contact-right-para{
+    width: 60%;
+    /* border: 2px solid red; */
+    padding: 15px 50px;
+}
+.contact-right-para p{
+    padding: 10px 0px;
+    font-size: 18px;
+}    
